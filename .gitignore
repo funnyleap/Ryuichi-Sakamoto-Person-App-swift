@@ -1,0 +1,35 @@
+.idea
+.DS_Store
+.Trashes
+*.swp
+*.lock
+*~.nib
+.vscode
+
+# Xcode build files
+DerivedData/
+build/
+
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# NB
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+*.xccheckout
+
+# Personal settings
+xcuserdata/
+xcuserdata/**/*
+!xcuserdata/**/xcschemes/*
+
+# VCS
+.git
+
+# Project files
+Ryuichi_Sakamoto.xcodeproj

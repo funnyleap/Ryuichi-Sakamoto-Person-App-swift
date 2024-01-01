@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zYR-uz-bXd">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Photos-->
+        <scene sceneID="1Xg-e0-dsu">
+            <objects>
+                <viewController id="1dw-Ah-yJW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nAM-9H-IMt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="luo-wO-Nji">
+                                <rect key="frame" x="20" y="44" width="374" height="769"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="MIg-2c-uh5">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="130"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RS2" translatesAutoresizingMaskIntoConstraints="NO" id="O9Q-mP-kiU">
+                                                <rect key="frame" x="0.0" y="0.0" width="172" height="130"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RS3" translatesAutoresizingMaskIntoConstraints="NO" id="Tff-Ce-TTe">
+                                                <rect key="frame" x="202" y="0.0" width="172" height="130"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="bjp-bQ-SPj">
+                                        <rect key="frame" x="0.0" y="160" width="374" height="129.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RS4" translatesAutoresizingMaskIntoConstraints="NO" id="rt9-uz-inX">
+                                                <rect key="frame" x="0.0" y="0.0" width="172" height="129.5"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RS5" translatesAutoresizingMaskIntoConstraints="NO" id="ais-E7-40d">
+                                                <rect key="frame" x="202" y="0.0" width="172" height="129.5"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="iVS-WQ-W4W">
+                                        <rect key="frame" x="0.0" y="319.5" width="374" height="130"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RS6" translatesAutoresizingMaskIntoConstraints="NO" id="Tsf-2D-Naw">
+                                                <rect key="frame" x="0.0" y="0.0" width="172" height="130"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RS7" translatesAutoresizingMaskIntoConstraints="NO" id="rar-rV-m09">
+                                                <rect key="frame" x="202" y="0.0" width="172" height="130"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="uBC-nz-zrb">
+                                        <rect key="frame" x="0.0" y="479.5" width="374" height="129.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RS8" translatesAutoresizingMaskIntoConstraints="NO" id="jGd-I1-axx">
+                                                <rect key="frame" x="0.0" y="0.0" width="172" height="129.5"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RS9" translatesAutoresizingMaskIntoConstraints="NO" id="AIg-FC-o2e">
+                                                <rect key="frame" x="202" y="0.0" width="172" height="129.5"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="zmf-Pz-q97">
+                                        <rect key="frame" x="0.0" y="639" width="374" height="130"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RS10" translatesAutoresizingMaskIntoConstraints="NO" id="R2S-XI-Xnp">
+                                                <rect key="frame" x="0.0" y="0.0" width="172" height="130"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RS11" translatesAutoresizingMaskIntoConstraints="NO" id="2b2-eV-mK5">
+                                                <rect key="frame" x="202" y="0.0" width="172" height="130"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pD6-m6-Uya"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstItem="pD6-m6-Uya" firstAttribute="trailing" secondItem="luo-wO-Nji" secondAttribute="trailing" constant="20" id="BHO-dp-Ndc"/>
+                            <constraint firstItem="luo-wO-Nji" firstAttribute="top" secondItem="pD6-m6-Uya" secondAttribute="top" id="OVT-ON-pzj"/>
+                            <constraint firstItem="luo-wO-Nji" firstAttribute="bottom" secondItem="pD6-m6-Uya" secondAttribute="bottom" id="wed-io-Iox"/>
+                            <constraint firstItem="luo-wO-Nji" firstAttribute="leading" secondItem="pD6-m6-Uya" secondAttribute="leading" constant="20" id="zhp-7Y-QXQ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Photos" image="photo.on.rectangle" catalog="system" id="P3u-ax-IzB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d2w-kR-9jf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1146.376811594203" y="696.42857142857144"/>
+        </scene>
+        <!--Read-->
+        <scene sceneID="a7z-c0-jml">
+            <objects>
+                <viewController id="KbZ-p2-jhu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tQh-9F-VUQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avw-Sw-B0Y">
+                                <rect key="frame" x="108" y="88" width="199" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jgu-Go-B8V">
+                                <rect key="frame" x="20" y="140" width="374" height="507.5"/>
+                                <mutableString key="text">Ryuichi Sakamoto, born on January 17, 1952, is a Japanese composer, singer, songwriter, actor, and Japanese activist most notable for his works in composition for movies, films, and music. He is well-known for being one of the three main members of Yellow Magic Orchestra. His most notable work in his early years of his career was Yellow Magic Orchestra, a band started in 1979 by Ryuichi Sakamoto, Yukihiro Takahashi, and Haruomi Hosono. The band consisted of electronic music and jazz fusion which was extremely influential to modern music especially J-Pop. As Yellow Magic Orchestra peaked in 1984, Sakamoto, Takahashi, and Hosono took separate paths in their careers. Sakamoto wrote famous compositions for movies like The Last Emperor, Merry Christmas Mr. Lawrence, and more. Back to Yellow Magic Orchestra, some of his most famous works in the band was Tong Poo (東風), Thousand Knives (千のナイフ), The End of Asia (エンド・オブ・エイシア), and Perspective. Many of these songs were recognized globally but mostly in Japan as album records sold fast. Sakamoto is 68 years old as of 2020 and still passionately writes music.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="twc-7x-V7P"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstItem="Jgu-Go-B8V" firstAttribute="top" secondItem="avw-Sw-B0Y" secondAttribute="bottom" constant="17" id="Alv-o2-qFv"/>
+                            <constraint firstItem="avw-Sw-B0Y" firstAttribute="leading" secondItem="twc-7x-V7P" secondAttribute="leading" constant="108" id="GtE-17-cgT"/>
+                            <constraint firstItem="twc-7x-V7P" firstAttribute="trailing" secondItem="Jgu-Go-B8V" secondAttribute="trailing" constant="20" id="HJ2-FK-sLa"/>
+                            <constraint firstItem="twc-7x-V7P" firstAttribute="trailing" secondItem="avw-Sw-B0Y" secondAttribute="trailing" constant="107" id="Moy-3Z-UZa"/>
+                            <constraint firstItem="avw-Sw-B0Y" firstAttribute="top" secondItem="twc-7x-V7P" secondAttribute="top" constant="44" id="ORA-uQ-W72"/>
+                            <constraint firstItem="Jgu-Go-B8V" firstAttribute="leading" secondItem="twc-7x-V7P" secondAttribute="leading" constant="20" id="YvB-4d-Ehw"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Read" image="book" catalog="system" id="FRo-we-hBO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RTp-XT-hap" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-342.02898550724638" y="707.8125"/>
+        </scene>
+        <!--Location-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ryuichi_Sakamoto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="PdC-fs-3FD">
+                                <rect key="frame" x="0.0" y="53" width="414" height="693"/>
+                            </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="5zW-fF-Onp">
+                                <rect key="frame" x="100" y="762" width="214" height="32"/>
+                                <segments>
+                                    <segment title="Standard"/>
+                                    <segment title="Satellite"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeMapType:" destination="BYZ-38-t0r" eventType="valueChanged" id="ECg-KW-rHt"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PdC-fs-3FD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="9" id="2eL-F7-AAc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5zW-fF-Onp" secondAttribute="bottom" constant="20" id="Lcs-zf-A3R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5zW-fF-Onp" secondAttribute="trailing" constant="100" id="NcL-6q-aKE"/>
+                            <constraint firstItem="5zW-fF-Onp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Whu-Sg-0Ex"/>
+                            <constraint firstItem="PdC-fs-3FD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aLg-Io-vqo"/>
+                            <constraint firstItem="PdC-fs-3FD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iYn-M7-lDh"/>
+                            <constraint firstItem="5zW-fF-Onp" firstAttribute="top" secondItem="PdC-fs-3FD" secondAttribute="bottom" constant="16" id="zNa-3u-v8V"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Location" image="map" catalog="system" id="zCR-Bf-ie9"/>
+                    <connections>
+                        <outlet property="mapView" destination="PdC-fs-3FD" id="lb6-98-wSz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-342.02898550724638" y="26.785714285714285"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="i69-Ws-VLD">
+            <objects>
+                <viewController id="7R1-za-blT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qam-aB-g1h">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RS1" translatesAutoresizingMaskIntoConstraints="NO" id="Wek-z9-0bZ">
+                                <rect key="frame" x="45" y="184" width="325" height="342"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="342" id="662-pf-nkf"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="342" id="bD3-LJ-hND"/>
+                                    <constraint firstAttribute="width" constant="325" id="gfa-lj-o3C"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="324" id="zQH-Rd-4td"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ryuichi Sakamoto" textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mb4-FI-BoA">
+                                <rect key="frame" x="59" y="79" width="296" height="44.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kvn-tc-GgN"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstItem="kvn-tc-GgN" firstAttribute="trailing" secondItem="mb4-FI-BoA" secondAttribute="trailing" constant="83" id="E1d-it-RBb"/>
+                            <constraint firstItem="Wek-z9-0bZ" firstAttribute="leading" secondItem="kvn-tc-GgN" secondAttribute="leading" constant="45" id="bAe-zC-dkF"/>
+                            <constraint firstItem="mb4-FI-BoA" firstAttribute="leading" secondItem="kvn-tc-GgN" secondAttribute="leading" constant="83" id="gyp-Ms-YwV"/>
+                            <constraint firstItem="Wek-z9-0bZ" firstAttribute="top" secondItem="mb4-FI-BoA" secondAttribute="bottom" constant="60.5" id="h2l-jQ-Axq"/>
+                            <constraint firstItem="mb4-FI-BoA" firstAttribute="top" secondItem="kvn-tc-GgN" secondAttribute="top" constant="35" id="opH-yb-wmq"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="person" catalog="system" id="OSB-hf-IOd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n4V-Wo-z9L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1146" y="-38"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="iiL-nz-AfU">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="zYR-uz-bXd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nDG-UN-zVw">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="7R1-za-blT" kind="relationship" relationship="viewControllers" id="Yuo-V1-cS6"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="0nJ-pY-Ycb"/>
+                        <segue destination="1dw-Ah-yJW" kind="relationship" relationship="viewControllers" id="RMi-1e-Is2"/>
+                        <segue destination="KbZ-p2-jhu" kind="relationship" relationship="viewControllers" id="SVD-U5-6hq"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zfG-9P-ojP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1957" y="-50"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="RS1" width="1920" height="1080"/>
+        <image name="RS10" width="236" height="314"/>
+        <image name="RS11" width="1280" height="869"/>
+        <image name="RS2" width="553" height="369"/>
+        <image name="RS3" width="1024" height="576"/>
+        <image name="RS4" width="1200" height="1278"/>
+        <image name="RS5" width="472" height="312"/>
+        <image name="RS6" width="616" height="440"/>
+        <image name="RS7" width="236" height="342"/>
+        <image name="RS8" width="640" height="925"/>
+        <image name="RS9" width="369" height="512"/>
+        <image name="book" catalog="system" width="128" height="102"/>
+        <image name="map" catalog="system" width="128" height="110"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="photo.on.rectangle" catalog="system" width="128" height="96"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
